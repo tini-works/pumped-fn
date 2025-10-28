@@ -1,6 +1,7 @@
 export namespace Logger {
   export type Level = 'debug' | 'info' | 'warn' | 'error'
   export type Format = 'json' | 'pretty' | 'simple'
+  export type Backend = 'console' | 'pino'
 
   export type Metadata = Record<string, unknown>
 
